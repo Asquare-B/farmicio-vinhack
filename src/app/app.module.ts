@@ -39,6 +39,12 @@ import { CartItemcardComponent } from './myComponents/cart-itemcard/cart-itemcar
 import { CartTotalComponent } from './myComponents/cart-total/cart-total.component';
 import { CartAddonsComponent } from './myComponents/cart-addons/cart-addons.component';
 import { CartPremiumComponent } from './myComponents/cart-premium/cart-premium.component';
+import { CategoriesComponent } from './myComponents/categories/categories.component';
+import { MembercardComponent } from './myComponents/membercard/membercard.component';
+import { TopbrandsComponent } from './myComponents/topbrands/topbrands.component';
+import { CategorycardComponent } from './myComponents/categorycard/categorycard.component';
+import { FaqComponent } from './myComponents/faq/faq.component';
+import { TopsellComponent } from './myComponents/topsell/topsell.component';
 
 
 @NgModule({
@@ -75,6 +81,12 @@ import { CartPremiumComponent } from './myComponents/cart-premium/cart-premium.c
     CartTotalComponent,
     CartAddonsComponent,
     CartPremiumComponent,
+    CategoriesComponent,
+    MembercardComponent,
+    TopbrandsComponent,
+    CategorycardComponent,
+    FaqComponent,
+    TopsellComponent,
     
   ],
   imports: [

@@ -45,6 +45,11 @@ import { TopbrandsComponent } from './myComponents/topbrands/topbrands.component
 import { CategorycardComponent } from './myComponents/categorycard/categorycard.component';
 import { FaqComponent } from './myComponents/faq/faq.component';
 import { TopsellComponent } from './myComponents/topsell/topsell.component';
+import { CartConfirmComponent } from './myComponents/cart-confirm/cart-confirm.component';
+import { CartConfirmHeadComponent } from './myComponents/cart-confirm-head/cart-confirm-head.component';
+import { CartConfirmItemComponent } from './myComponents/cart-confirm-item/cart-confirm-item.component';
+import { CartConfirmDetailsComponent } from './myComponents/cart-confirm-details/cart-confirm-details.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -87,6 +92,10 @@ import { TopsellComponent } from './myComponents/topsell/topsell.component';
     CategorycardComponent,
     FaqComponent,
     TopsellComponent,
+    CartConfirmComponent,
+    CartConfirmHeadComponent,
+    CartConfirmItemComponent,
+    CartConfirmDetailsComponent,
     
   ],
   imports: [

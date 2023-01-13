@@ -1,0 +1,50 @@
+
+.con1{
+    padding: 15px;
+    font-family: publicsans;
+}
+
+.card{
+    margin: 0px 100px;
+    border-radius: 20px;
+    background-color: rgba(55, 184, 50, 0.168);
+    box-shadow: 0 0 5px 5px white inset;
+    padding: 25px 0px;
+}
+
+.head{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 30px 20px 20px 20px;
+    margin-left: 50px;
+    
+}
+hr{
+    opacity: 0.2;
+}
+
+.entry, .sum{
+    padding: 0px 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin: 0px 15px;
+}
+
+.sum{
+    padding-bottom: 10px;
+}
+
+button{
+    margin-top: 30px;
+    margin-left: 125px;
+    padding: 20px 40px;
+    border-radius: 15px;
+    background-color: rgb(180, 2, 2);
+    color: white;
+    font-family: publicsans;
+    font-size: 20px;
+    font-weight: 600;
+    border-style: none;
+}

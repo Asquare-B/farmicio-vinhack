@@ -24,6 +24,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CartComponent } from './myComponents/cart/cart.component';
 import { CartItemComponent } from './myComponents/cart-item/cart-item.component';
 import { PdhomeComponent } from './myComponents/pdhome/pdhome.component';
+import { PdOfferComponent } from './myComponents/pd-offer/pd-offer.component';
+import { PdHeaderComponent } from './myComponents/pd-header/pd-header.component';
+
+import { PdSidebarComponent } from './myComponents/pd-sidebar/pd-sidebar.component';
+import { PdReviewsComponent } from './myComponents/pd-reviews/pd-reviews.component';
+import { PdItemcardComponent } from './myComponents/pd-itemcard/pd-itemcard.component';
+import { PdDetailsComponent } from './myComponents/pd-details/pd-details.component';
+import { PdSideofferComponent } from './myComponents/pd-sideoffer/pd-sideoffer.component';
+import { CartSummComponent } from './myComponents/cart-summ/cart-summ.component';
+import { ResuktComponent } from './myComponents/resukt/resukt.component';
+import { ResultComponent } from './myComponents/result/result.component';
+import { CartItemcardComponent } from './myComponents/cart-itemcard/cart-itemcard.component';
+import { CartTotalComponent } from './myComponents/cart-total/cart-total.component';
+import { CartAddonsComponent } from './myComponents/cart-addons/cart-addons.component';
+import { CartPremiumComponent } from './myComponents/cart-premium/cart-premium.component';
 
 
 @NgModule({
@@ -46,6 +61,20 @@ import { PdhomeComponent } from './myComponents/pdhome/pdhome.component';
     CartComponent,
     CartItemComponent,
     PdhomeComponent,
+    PdOfferComponent,
+    PdHeaderComponent,
+    PdSidebarComponent,
+    PdReviewsComponent,
+    PdItemcardComponent,
+    PdDetailsComponent,
+    PdSideofferComponent,
+    CartSummComponent,
+    ResuktComponent,
+    ResultComponent,
+    CartItemcardComponent,
+    CartTotalComponent,
+    CartAddonsComponent,
+    CartPremiumComponent,
     
   ],
   imports: [

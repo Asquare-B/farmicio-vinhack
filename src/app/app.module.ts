@@ -50,6 +50,10 @@ import { CartConfirmHeadComponent } from './myComponents/cart-confirm-head/cart-
 import { CartConfirmItemComponent } from './myComponents/cart-confirm-item/cart-confirm-item.component';
 import { CartConfirmDetailsComponent } from './myComponents/cart-confirm-details/cart-confirm-details.component';
 import { RouterModule } from '@angular/router';
+import { UserLoginComponent } from './myComponents/user-login/user-login.component';
+import { UserSignupComponent } from './myComponents/user-signup/user-signup.component';
+import { FarmerLoginComponent } from './myComponents/farmer-login/farmer-login.component';
+import { FarmerSignupComponent } from './myComponents/farmer-signup/farmer-signup.component';
 
 
 @NgModule({
@@ -96,6 +100,10 @@ import { RouterModule } from '@angular/router';
     CartConfirmHeadComponent,
     CartConfirmItemComponent,
     CartConfirmDetailsComponent,
+    UserLoginComponent,
+    UserSignupComponent,
+    FarmerLoginComponent,
+    FarmerSignupComponent,
     
   ],
   imports: [

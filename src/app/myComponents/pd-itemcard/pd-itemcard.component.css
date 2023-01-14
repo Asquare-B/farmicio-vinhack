@@ -1,77 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Artifika&family=Courgette&family=Righteous&display=swap');
-/*    font-family: 'Abril Fatface', cursive;
-    font-family: 'Artifika', serif;
-    font-family: 'Courgette', cursive;
-    font-family: 'Righteous', cursive;*/
-.con1{
-    width: 900px;
-    margin: 20px;
-}
-
-.head #name{
-    font-size: 34px;
-    font-weight: 600;
-    line-height: 40px;
-    padding-bottom: 20px;
-}
-
-.card{
-    background-color: rgba(61, 255, 216, 0.05);
-    margin: 10px 15px;
-    border: 1px;
-    width: 700px;
-    margin-left: 100px;
-    border-style: dashed;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.left{
+img{
+    max-width: 200px;
+    max-height: 200px;    
+    border-radius: 40px;
+    margin-left: 20px;
+  }
+  
+  .content{
+    margin-right: 30px;
+  background-color: rgba(9, 176, 56, 0.423);
+  box-shadow: inset 0 0 10px 10px white;
+  display: flex;  
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 30px;
+  width: 900px;
+  }
+  
+    .txt{
+        flex-wrap: wrap;
+        margin: 20px;
+  }
+  .about {
+    
+    text-align: justify;
+  }
+  h3{
+    margin-top: 30px;
+  }
+  .details{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 25px;
-}
-
-.left img{
-    object-fit:contain;
-    height: 200px;
-    width: 250px;
-}
-
-.right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.content #price, .content #q{
-    font-size: 22px;
-    font-weight: 500;
-}
-
-.selection{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-select{
-    font-size: 15px;
-    width: 100px;
+    align-self: center;
+    width: 800px;
+  }
+  .cart{
+    background-color: rgb(22, 4, 54);
     padding: 10px;
-    border-radius: 10px;
-}
-
-button{
-    font-size: 14px;
-    font-weight: 500;
-    padding: 10px 15px;
-    margin-right: 25px;
-    margin-top: 15px;
-    border-radius: 10px;
-    background-color: rgba(37, 253, 37, 0.333);
-}
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-family: publicsans;
+    font-size: 16px;
+    margin-top: 20px;    
+  }

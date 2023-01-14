@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.receive{
+    background-color: rgba(8, 125, 55, 0.33);
+    box-shadow: inset 0 0 15px 15px white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+#tit{
+    font-size: 30px;
+    font-family: baron;
+    font-weight: 400;
+}
+
+.receive img{
+    object-fit: contain;
+    height: 300px;
+}
+
+.update{
+    background-color: rgba(8, 125, 55, 0.33);
+    box-shadow: inset 0 0 15px 15px white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+.update img{
+    object-fit: contain;
+    height: 300px;
+}
+
+#desc{
+    font-family: publicsans;
+    font-size: 18px;
+}
+
+p{
+    text-align: center;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

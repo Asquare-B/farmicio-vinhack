@@ -56,6 +56,12 @@ import { FarmerLoginComponent } from './myComponents/farmer-login/farmer-login.c
 import { FarmerSignupComponent } from './myComponents/farmer-signup/farmer-signup.component';
 import { FarmerRequesthomeComponent } from './myComponents/farmer-requesthome/farmer-requesthome.component';
 import { FarmerRequesthomeItemComponent } from './myComponents/farmer-requesthome-item/farmer-requesthome-item.component';
+import { FarmershomeComponent } from './myComponents/farmershome/farmershome.component';
+import { FarmerUpdateComponent } from './myComponents/farmer-update/farmer-update.component';
+import { FarmerUpdateitemComponent } from './myComponents/farmer-updateitem/farmer-updateitem.component';
+import { AboutusComponent } from './myComponents/aboutus/aboutus.component';
+import { ContactcardComponent } from './myComponents/contactcard/contactcard.component';
+import { ContacthomeComponent } from './myComponents/contacthome/contacthome.component';
 
 
 @NgModule({
@@ -108,6 +114,12 @@ import { FarmerRequesthomeItemComponent } from './myComponents/farmer-requesthom
     FarmerSignupComponent,
     FarmerRequesthomeComponent,
     FarmerRequesthomeItemComponent,
+    FarmershomeComponent,
+    FarmerUpdateComponent,
+    FarmerUpdateitemComponent,
+    AboutusComponent,
+    ContactcardComponent,
+    ContacthomeComponent,
     
   ],
   imports: [

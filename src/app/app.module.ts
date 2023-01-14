@@ -54,6 +54,8 @@ import { UserLoginComponent } from './myComponents/user-login/user-login.compone
 import { UserSignupComponent } from './myComponents/user-signup/user-signup.component';
 import { FarmerLoginComponent } from './myComponents/farmer-login/farmer-login.component';
 import { FarmerSignupComponent } from './myComponents/farmer-signup/farmer-signup.component';
+import { FarmerRequesthomeComponent } from './myComponents/farmer-requesthome/farmer-requesthome.component';
+import { FarmerRequesthomeItemComponent } from './myComponents/farmer-requesthome-item/farmer-requesthome-item.component';
 
 
 @NgModule({
@@ -104,6 +106,8 @@ import { FarmerSignupComponent } from './myComponents/farmer-signup/farmer-signu
     UserSignupComponent,
     FarmerLoginComponent,
     FarmerSignupComponent,
+    FarmerRequesthomeComponent,
+    FarmerRequesthomeItemComponent,
     
   ],
   imports: [

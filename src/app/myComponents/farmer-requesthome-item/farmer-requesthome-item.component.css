@@ -1,20 +1,11 @@
 .con1{
     background-color: #ffffff;
     padding: 10px;
-    
-   
   }
   .cat1{
     padding-top: 1px;
-   padding-right: 1px;
-    margin: 30px 100px;
-    background-color: #ffffff;
-    border-radius: 10px;
-  }
-  .cat2{
-   padding-top: 1px;
-   padding-right: 1px;
-   margin: 30px 100px;
+    padding-right: 1px;
+    margin: 20px 60px;
     background-color: #ffffff;
     border-radius: 10px;
   }
@@ -30,7 +21,7 @@
       margin-left: 35px;
       font-family: 'Artifika', serif;
   }
-  .accordion {   
+  .accordion {
       font-family: "Quicksand", sans-serif;
       background-color: rgba(9, 112, 66, 0.3);
       font-family: "Poppins",sans-serif;
@@ -71,7 +62,6 @@
     
     .accordion__content {
       background: #FFFBE9;
-      line-height: 1.6;
       font-size: 0.85em;
       display: none;
     }
@@ -82,10 +72,12 @@
     
     .accordion__input:checked ~ .accordion__content {
       display: block;
+      height: fit-content;
     }
     
     .accordion__input:checked ~ .accordion__label::after {
       transform: translateY(-50%) rotate(0.5turn);
+      
     }
     .service .title h5, h3{
       font-family: 'Artifika', serif;
@@ -107,8 +99,8 @@
   }
   .sub{
     max-height:fit-content;
-    background-color:rgba(7, 81, 48, 0.332);;
-    
+    background-color:rgba(7, 81, 48, 0.332);
+    box-shadow: 0 10px 30px #0000000d;
     border-radius:10px;
     
     display: flex;
@@ -137,4 +129,34 @@
   }
   #right{
     margin-left: 0px;
+  }
+  .acc{
+    float: right;
+    height: auto;    
+
+  }
+  button{
+    border-radius: 5px;
+    color: white;
+    border-color: #DAE2B6;
+    padding: 3px;
+  }
+  .accept{
+    background-color: #037107;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: none;
+  }
+  .decline{
+    background-color: red;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border: none;
+  }
+
+  .content{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: publicsans;
   }

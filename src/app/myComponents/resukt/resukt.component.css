@@ -1,0 +1,19 @@
+.con1{
+    padding: 40px;
+}
+
+.card{
+    background-color: aqua;
+    border-radius: 20px;
+}
+.head{
+    font-size: 30px;
+    margin-left: 30px;
+    padding:20px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}

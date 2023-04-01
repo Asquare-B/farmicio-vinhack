@@ -62,6 +62,9 @@ import { FarmerUpdateitemComponent } from './myComponents/farmer-updateitem/farm
 import { AboutusComponent } from './myComponents/aboutus/aboutus.component';
 import { ContactcardComponent } from './myComponents/contactcard/contactcard.component';
 import { ContacthomeComponent } from './myComponents/contacthome/contacthome.component';
+import { OrdersHomeComponent } from './myComponents/orders-home/orders-home.component';
+import { OrdersItemComponent } from './myComponents/orders-item/orders-item.component';
+import { OrdersItemcardComponent } from './myComponents/orders-itemcard/orders-itemcard.component';
 
 
 @NgModule({
@@ -120,6 +123,9 @@ import { ContacthomeComponent } from './myComponents/contacthome/contacthome.com
     AboutusComponent,
     ContactcardComponent,
     ContacthomeComponent,
+    OrdersHomeComponent,
+    OrdersItemComponent,
+    OrdersItemcardComponent,
     
   ],
   imports: [

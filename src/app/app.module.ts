@@ -73,10 +73,12 @@ import { ChathomeComponent } from './mini/chathome/chathome.component';
 import { Aboutus1Component } from './mini/aboutus/aboutus.component';
 import { Navbar1Component } from './mini/navbar/navbar.component';
 import { LoginComponent } from './mini/login/login.component';
+import { Homepage1Component } from './mini/homepage/homepage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    Homepage1Component,
     Navbar1Component,
     Aboutus1Component,
     HomepageComponent,

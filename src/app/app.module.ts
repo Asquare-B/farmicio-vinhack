@@ -65,11 +65,20 @@ import { ContacthomeComponent } from './myComponents/contacthome/contacthome.com
 import { OrdersHomeComponent } from './myComponents/orders-home/orders-home.component';
 import { OrdersItemComponent } from './myComponents/orders-item/orders-item.component';
 import { OrdersItemcardComponent } from './myComponents/orders-itemcard/orders-itemcard.component';
-
+import { Contactcard2Component } from './myComponents/contactcard2/contactcard2.component';
+import { FormhomeComponent } from './mini/formhome/formhome.component';
+import { FormcardComponent } from './mini/formcard/formcard.component';
+import { ContactushomeComponent } from './mini/contactushome/contactushome.component';
+import { ChathomeComponent } from './mini/chathome/chathome.component';
+import { Aboutus1Component } from './mini/aboutus/aboutus.component';
+import { Navbar1Component } from './mini/navbar/navbar.component';
+import { LoginComponent } from './mini/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    Navbar1Component,
+    Aboutus1Component,
     HomepageComponent,
     ShopHeadComponent,
     HeaderComponent,
@@ -126,6 +135,12 @@ import { OrdersItemcardComponent } from './myComponents/orders-itemcard/orders-i
     OrdersHomeComponent,
     OrdersItemComponent,
     OrdersItemcardComponent,
+    Contactcard2Component,
+    FormhomeComponent,
+    FormcardComponent,
+    ContactushomeComponent,
+    ChathomeComponent,
+    LoginComponent,
     
   ],
   imports: [
